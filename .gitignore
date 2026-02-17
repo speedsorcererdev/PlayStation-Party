@@ -4,6 +4,10 @@
 .env.*.local
 *.local
 
+# Device / Magisk (local use only, do not commit)
+Magisk-*.apk
+magisk_patched-*.img
+
 # Dependencies and build output
 node_modules/
 dist-main/
@@ -24,10 +28,6 @@ customMessage_204_request.json
 run-log.txt
 run-log-*.txt
 run-log-issues.md
-
-# ps-apk: Decoded APK output (contains app-bundled keys: AWS, Google API — do not commit)
-ps-apk/ps-apk-decoded/
-ps-apk/ps-apk-frida-decoded/
 
 # ps-apk: HAR, captures, logs (contain tokens / account IDs)
 ps-apk/flows*_export.har
