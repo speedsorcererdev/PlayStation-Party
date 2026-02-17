@@ -102,6 +102,6 @@ else
 fi
 
 echo "Done. Frida-patched APK: $OUT_APK"
-echo "Uninstall current app in Bluestacks, then:"
+echo "Uninstall current app in emulator/device, then:"
 echo "  adb -s 127.0.0.1:5555 install \"$OUT_APK\""
 echo "Set proxy, start mitmproxy, then run Frida with SSL unpinning (see README-FRIDA.md)."

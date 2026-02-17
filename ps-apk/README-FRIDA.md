@@ -6,7 +6,7 @@ Use **Frida** with the **original** app (no TrustKit/network config patching). T
 
 - **Frida** (you have `frida-tools`; use full path if not on PATH):
   - `frida --version` → 17.5.2 (must match gadget in APK)
-- **Bluestacks** with PlayStation app installed (the Frida-patched APK).
+- **Android emulator or device** with PlayStation app installed (the Frida-patched APK).
 - **mitmproxy** on your Mac (proxy + web UI).
 - **ADB** to device: `adb -s 127.0.0.1:5555`.
 
@@ -19,9 +19,9 @@ cd ps-apk
 
 Output: `ps-android-frida.apk`.
 
-## 2. Install on Bluestacks
+## 2. Install on emulator or device
 
-- Uninstall the current PlayStation app in Bluestacks (if installed).
+- Uninstall the current PlayStation app (if installed).
 - Install the Frida-patched APK:
 
 ```bash
@@ -54,7 +54,7 @@ frida -U -f com.scee.psxandroid \
   --no-pause
 ```
 
-- `-U`: USB device (Bluestacks via ADB).
+- `-U`: USB device (emulator or phone via ADB).
 - `-f com.scee.psxandroid`: spawn this package.
 - `--codeshare ...`: load the SSL unpinning script from Frida CodeShare.
 - `--no-pause`: do not pause on start (app runs immediately; script still hooks).
@@ -80,6 +80,6 @@ adb -s 127.0.0.1:5555 shell settings delete global http_proxy_port
 ## Troubleshooting
 
 - **Frida version mismatch**: Gadget in the APK is 17.5.2. Upgrade/downgrade `frida-tools` to match, or re-run `patch-ps-apk-frida.sh` (script uses 17.5.2).
-- **“Failed to spawn: unable to find process”**: Ensure the Frida-patched app is installed and only one Bluestacks instance is connected (`adb devices`).
+- **“Failed to spawn: unable to find process”**: Ensure the Frida-patched app is installed and only one device/emulator is connected (`adb devices`).
 - **App crashes or no traffic**: Try another CodeShare unpinning script; the app may use OkHttp, TrustKit, or custom pinning.
 - **Gadget listens on port**: With embedded gadget, Frida connects over USB to the app process; no separate frida-server or port config needed.

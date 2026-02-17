@@ -9,7 +9,7 @@ This document describes **device-bound and session tokens**, **HTTP vs WebSocket
 ### 1.1 DUID (device unique id)
 
 - **Where seen:** OAuth **authorize** URL (ca.account), **token** body for some grants (e.g. `client_credentials`, `sso_token`).
-- **Format (Android):** Long hex string, e.g. `00000007000801a800000000000000533a08957830d9ee3a20202020476f6f676c653a2020506978656c203661...` (trailing bytes decode to ASCII such as `"Google"`, `"Pixel 6a"` — device/manufacturer/model).
+- **Format (Android):** Long hex string (e.g. 64–128 chars); trailing bytes may decode to ASCII such as device/manufacturer/model.
 - **Semantics:** Hardware/device-bound; likely used for device limits, region, and abuse detection. **Only certain devices are allowed** for native client; wrong or random duid can trigger blocks.
 - **Desktop:** Use a **stable, per-install identifier** (e.g. generated once, stored in electron-store). Do not rotate it per request. Do not copy a real phone duid. Format can be a fixed-length hex string that identifies “one desktop install” (e.g. 64 chars). If the API rejects authorize/token without duid, add it where the capture shows it (authorize query, token body).
 

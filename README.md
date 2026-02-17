@@ -1,13 +1,14 @@
-# PlayStation Party — workspace
+# PlayStation Party
 
-This workspace contains **two separate projects**, intended for **separate repositories**:
+**Get party voice into OBS for livestreams.** This repo has two parts:
 
-| Folder | Purpose |
-|--------|--------|
-| **ps-party-listener/** | **PlayStation Party (Desktop App)** — Electron app to listen to party voice and route it into OBS for livestreams. Clone/push this as its own repo. |
-| **ps-apk/** | **API research and reverse engineering** — Frida/mitmproxy capture docs, endpoint flows, OAuth/customMessage notes. Clone/push as a separate repo. |
+| Part | What it is | Where to start |
+|------|------------|----------------|
+| **App** | Desktop app: sign in with PSN, join a party, output voice to system audio for OBS | **[ps-party-listener/README.md](ps-party-listener/README.md)** — Quick start, setup, OBS |
+| **Research** | How to get OAuth credentials, capture API flows, and debug the voice "Connecting…" issue | **[ps-apk/README.md](ps-apk/README.md)** — Capture docs, endpoints, what not to commit |
 
-- **App repo:** See `ps-party-listener/README.md` for setup, OAuth, and OBS usage.
-- **Research repo:** See `ps-apk/README.md` for capture how-to and what not to commit.
+**Just want to stream party chat?**  
+→ Open [ps-party-listener/README.md](ps-party-listener/README.md), follow **Quick start**, then [OBS setup](ps-party-listener/docs/OBS-SETUP.md). You’ll need OAuth client ID/secret (research repo or community docs).
 
-Link the research repo from the app repo’s README (e.g. “PlayStation Party API research”) once both are published.
+**Want to help or get credentials?**  
+→ [ps-party-listener/CONTRIBUTING.md](ps-party-listener/CONTRIBUTING.md), [ps-party-listener/docs/README.md](ps-party-listener/docs/README.md) (doc index), and [ps-apk/README.md](ps-apk/README.md).

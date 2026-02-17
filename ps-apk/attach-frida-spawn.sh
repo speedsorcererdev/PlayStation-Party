@@ -3,7 +3,7 @@
 # before any network requests. Use this if the app gets stuck on loading
 # when you attach after it's already running.
 #
-# 1. Force-stop the PS app in Bluestacks (or leave it stopped).
+# 1. Force-stop the PS app in the emulator/device (or leave it stopped).
 # 2. Run: ./attach-frida-spawn.sh
 # 3. The app will start with bypass active; use it and check mitmweb.
 set -e

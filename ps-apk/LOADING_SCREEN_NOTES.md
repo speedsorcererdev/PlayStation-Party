@@ -9,15 +9,15 @@ The TrustKit-patched APK **opens** and loads our network security config, but ca
 
 So SSL/TrustKit is likely fine; the hang is probably due to one of:
 
-1. **Environment** – App may require Google Play Services, device attestation, or a real device check that fails in Bluestacks.
+1. **Environment** – App may require Google Play Services, device attestation, or a real device check that fails in some emulators.
 2. **Network** – App may be waiting on an API (config, auth, feature flags) that fails or times out in the emulator.
 3. **First-run / onboarding** – Some logic might never complete in this setup.
 
 ## What to try
 
 ### 1. Confirm with the **original** app
-- Uninstall the patched APK and install the **stock** PlayStation app from the Play Store in Bluestacks.
-- Open it. If it **also** gets stuck on loading, the issue is Bluestacks/environment, not our patch.
+- Uninstall the patched APK and install the **stock** PlayStation app from the Play Store.
+- Open it. If it **also** gets stuck on loading, the issue is the emulator/environment, not our patch.
 - If the original **does** get past loading, then something in our build still breaks the flow.
 
 ### 2. Capture traffic while it’s “loading”
@@ -29,7 +29,7 @@ So SSL/TrustKit is likely fine; the hang is probably due to one of:
 ### 3. Frida on the **original** app (alternative to patching)
 - Use the **unpatched** app from the Play Store.
 - Run **Frida** (e.g. frida-gadget or frida-server in the emulator) with an SSL unpinning script so the app trusts mitmproxy.
-- No APK patch, so no TrustKit/loading changes from our side; you still get decrypted traffic if Frida works in Bluestacks.
+- No APK patch, so no TrustKit/loading changes from our side; you still get decrypted traffic if Frida works in the emulator.
 
 ## Summary
 The patched APK is in a good state for **SSL** (config loads, no TrustKit crash). The loading hang is probably **environment or backend**, not certificate/pinning. Testing with the original app and with mitmproxy will narrow it down.

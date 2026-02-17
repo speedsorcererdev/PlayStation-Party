@@ -2,6 +2,12 @@
 
 This repository contains **reverse-engineering notes and API documentation** for PSN party and voice (sessionManager, rtcBridge, customMessage, push). It is separate from the **PlayStation Party (Desktop App)** repo so the app stays focused on the desktop client and OBS use case; this repo is for anyone who wants to capture credentials, inspect flows, or help debug API issues.
 
+**I need OAuth credentials for the desktop app.**  
+→ Start with **README-FRIDA.md** (Frida + mitmproxy) or **CAPTURE-HAR-PSAPP.md** (HAR capture). You’ll get `client_id` and `client_secret` from the app’s token request and put them in the app’s `.env`.
+
+**I want to understand the API or help fix the 400 bug.**  
+→ **FLOWS-SUMMARY.md** and **FLOWS-5-ENDPOINTS-FOUND.md** for endpoints; **CAPTURE-CUSTOMMESSAGE.md** for customMessage capture. The desktop app’s `CONTRIBUTING.md` and `docs/CUSTOMMESSAGE-SERVER-ENFORCEMENT.md` describe the bug and what we’ve tried.
+
 ## What’s in here
 
 - **Endpoint and flow docs** — m.np.playstation.com APIs (OAuth, party list, join, voice bridge, customMessage). See `FLOWS-*-ENDPOINTS-FOUND.md`, `FLOWS-SUMMARY.md`, `FLOWS-6-7-8-SUMMARY.md`.

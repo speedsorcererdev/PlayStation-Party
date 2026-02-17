@@ -46,7 +46,7 @@ apk-mitm ps-android-base.apk --certificate "$CERT"
 
 if [[ -f "$PATCHED_APK" ]]; then
   echo "Done. Patched APK: $PATCHED_APK"
-  echo "Uninstall PS app in Bluestacks (long-press → Uninstall), then:"
+  echo "Uninstall PS app in emulator (long-press → Uninstall), then:"
   echo "  adb -s 127.0.0.1:5555 install \"$PATCHED_APK\""
 else
   echo "Patched APK not found. Check output above."

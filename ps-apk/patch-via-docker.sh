@@ -35,7 +35,7 @@ docker run --platform linux/amd64 --rm \
 
 if [[ -f "$PATCHED_APK" ]]; then
   echo "Done. Patched APK: $PATCHED_APK"
-  echo "Install on Bluestacks: adb -s 127.0.0.1:5555 install \"$PATCHED_APK\""
+  echo "Install on device/emulator: adb -s 127.0.0.1:5555 install \"$PATCHED_APK\""
 else
   echo "Patched APK not found. Check output above."
   exit 1

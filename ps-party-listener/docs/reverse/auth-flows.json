@@ -70,7 +70,7 @@
       "X-Psn-Request-Id"
     ],
     "bodyKeys": [
-      "{\"client_id\":\"09515159-7237-4370-9b40-3806e67c0891\",\"scope\":\"psn:mobile.v2.core psn:clientapp\",\"redirect_uri\":\"com.scee.psxandroid.scecompcall://redirect\",\"response_type\":\"code\",\"service_entity\":\"urn:service-entity:psn\",\"access_type\":\"offline\",\"duid\":\"00000007000801a800000000000000533a08957830d9ee3a20202020476f6f676c653a2020506978656c20366100000000000000000000000000000000\"}"
+      "{\"client_id\":\"09515159-7237-4370-9b40-3806e67c0891\",\"scope\":\"psn:mobile.v2.core psn:clientapp\",\"redirect_uri\":\"com.scee.psxandroid.scecompcall://redirect\",\"response_type\":\"code\",\"service_entity\":\"urn:service-entity:psn\",\"access_type\":\"offline\",\"duid\":\"<redacted_hex_duid>\"}"
     ]
   },
   {

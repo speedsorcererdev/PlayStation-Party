@@ -2,6 +2,8 @@
 
 Thanks for considering helping with PlayStation Party (Desktop App).
 
+**You don’t need to do any reverse engineering to use the app.** You only need OAuth credentials (see the research repo or community docs). Contributing is optional — ideas, testing, or code are all welcome.
+
 ## Open issue: customMessage 400
 
 The main known bug we’d like help with is **customMessage (miranda:12) returning 400** from PSN while the rest of the flow works (create party, join, rtcBridge, sendAnswer, push). Other party members then see “Connecting…” instead of “Connected” for our client.

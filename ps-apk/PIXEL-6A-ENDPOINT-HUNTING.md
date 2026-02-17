@@ -98,7 +98,7 @@ Then on the Mac open `party_sni.pcap` in Wireshark: **Statistics → Resolved Ad
 | 3 | **SNI capture** | Proxy off. tcpdump on phone (or Mac) while starting a party. Get party hostname(s) from SNI. |
 | 4 | **Unpin retry** | Enable TrustMeAlready or SSL Killer for PlayStation once; test startup + party with proxy on. If ANR/crash, disable again. |
 
-After 1 and 2 we have **auth** and a **path map** for the hosts we already see. After 3 we have the **party hostname(s)**. After 4 we might get full party capture; if not, we still have 1–3 to build on (e.g. auth in a desktop client, and a target host for reverse engineering or Bluestacks capture later).
+After 1 and 2 we have **auth** and a **path map** for the hosts we already see. After 3 we have the **party hostname(s)**. After 4 we might get full party capture; if not, we still have 1–3 to build on (e.g. auth in a desktop client, and a target host for reverse engineering or emulator capture later).
 
 ---
 

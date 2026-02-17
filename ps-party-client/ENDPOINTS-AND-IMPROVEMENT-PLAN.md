@@ -82,7 +82,7 @@ So we have the **protocol shape** (WebRTC + session events + method 3001), but n
 
 **Obstacle:** On the same device, the PlayStation app **will not start or join parties** when the Wi‑Fi proxy is on (parties work with proxy off). So we cannot capture party traffic from the official app through mitmproxy on that device. Options:
 
-- **Option A1 – Bluestacks + patched APK:** Run the PlayStation app in Bluestacks with a **patched APK** (mitmproxy CA baked in; see `PS_APK_PATCH_FOR_PROXY.md`). The emulator may not enforce pinning the same way, so party might work through the proxy there. Capture create/join/invite/leave in Bluestacks and inspect flows.
+- **Option A1 – Emulator + patched APK:** Run the PlayStation app in an Android emulator with a **patched APK** (mitmproxy CA baked in; see `PS_APK_PATCH_FOR_PROXY.md`). The emulator may not enforce pinning the same way, so party might work through the proxy there. Capture create/join/invite/leave and inspect flows.
 - **Option A2 – Frida unpinning (scoped to party):** If you have Frida on the rooted phone, use an SSL unpinning script **only** when needed, or try to hook the specific code path that does party connections, so other traffic still goes through the proxy and party connections accept the proxy cert. (Risky: can cause crashes or ANR; test carefully.)
 - **Option A3 – Older APK:** Try an **older** PlayStation APK (from APKMirror or similar) that might not pin for party endpoints. Install on the rooted device, set proxy, and see if party start/join works; if so, capture.
 - **Option A4 – Rely on Tustin + reverse:** Use Tustin’s docs/code and reverse‑engineer the app (or console) for party/signaling URLs and message format, without live capture.
@@ -170,7 +170,7 @@ If you get a capture from A1–A3, then:
 
 | # | Task | Done |
 |---|------|------|
-| 1 | Targeted capture: create/join party, invite, leave only (need Bluestacks/patched APK or older APK—official app won’t start party with proxy on) | |
+| 1 | Targeted capture: create/join party, invite, leave only (need emulator/patched APK or older APK—official app won’t start party with proxy on) | |
 | 2 | Filter flows by social / web.np / io; list paths + methods + body summary | |
 | 3 | Note any WebSocket/Socket.IO URL for signaling | |
 | 4 | Auth capture: log out → log in; note login + refresh endpoints and headers | |
@@ -187,4 +187,4 @@ If you get a capture from A1–A3, then:
 - **Tustin/PlayStationPartyChat:** https://github.com/Tustin/PlayStationPartyChat (docs.txt, src/).
 - **Our proxy analysis:** `ps-apk/PROXY-TRAFFIC-ANALYSIS.md`.
 - **Our how-to:** `ps-party-client/HOW_TO_START.md`.
-- **Bluestacks/mitmproxy:** `PS_ENDPOINTS_VIA_BLUESTACKS.md`, `ps-party-client/MITMPROXY_SETUP.md`.
+- **Emulator/mitmproxy:** `PS_APK_PATCH_FOR_PROXY.md`, `ps-party-client/MITMPROXY_SETUP.md`.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Patch PlayStation APK for mitmproxy (embeds CA, disables pinning).
 # Usage: ./patch-ps-apk.sh [install]
-#   install = also uninstall original and install patched APK in Bluestacks.
+#   install = also uninstall original and install patched APK in emulator/device.
 
 set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -25,7 +25,7 @@ if [[ ! -f "$CERT" ]]; then
 fi
 if [[ ! -f "$BASE_APK" ]]; then
   echo "Base APK not found: $BASE_APK"
-  echo "Pull it from Bluestacks first, e.g.:"
+  echo "Pull it from your emulator/device first, e.g.:"
   echo "  adb -s $ADB_DEVICE shell pm path com.scee.psxandroid"
   echo "  adb -s $ADB_DEVICE pull \"<path>/base.apk\" \"$BASE_APK\""
   exit 1

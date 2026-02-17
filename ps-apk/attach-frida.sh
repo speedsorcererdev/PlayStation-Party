@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Attach Frida + SSL bypass to the PlayStation app. Finds PID automatically.
-# Usage: ./attach-frida.sh   (start PS app in Bluestacks first)
+# Usage: ./attach-frida.sh   (start PS app in emulator/device first)
 # Requires: Frida-gadget APK installed (ps-android-frida.apk), not the stock app.
 set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

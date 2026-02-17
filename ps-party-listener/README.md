@@ -2,6 +2,31 @@
 
 A desktop app to **listen to PlayStation party voice** and route it into **OBS** (or any livestream setup). Sign in with your PSN account, pick a party, and hear party chat through your default audio output so OBS can capture it.
 
+**Who it’s for:** Streamers who want party chat in their mix, and contributors who want to help fix the “Connecting…” limitation (see [Contributing](#references-and-contributing)).
+
+---
+
+## Quick start
+
+1. **Clone, install, configure**
+   ```bash
+   cd ps-party-listener
+   npm install
+   cp .env.example .env
+   ```
+   Edit `.env`: set `PSN_CLIENT_ID` and `PSN_CLIENT_SECRET` (see [Setup](#setup); credentials come from the official app flow — research repo or community docs).
+
+2. **Build and run**
+   ```bash
+   npm run build
+   npm start
+   ```
+3. Sign in with PSN, open **Your parties**, click **Listen** on a party. In OBS, add **Audio Output Capture** or **Application Audio** and select the app or your output device. → Full steps: [docs/OBS-SETUP.md](docs/OBS-SETUP.md).
+
+**Something wrong?** → [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) · **All docs:** [docs/README.md](docs/README.md)
+
+---
+
 ## Why we built this
 
 We wanted a way to **include PlayStation Party audio in livestreams** — so viewers can hear you and your friends in party chat while you play, without relying on a separate capture card or console mix. The official PlayStation app doesn’t expose party audio to the system in a way OBS can capture cleanly. This app joins the party as a listen-only client and outputs voice to your system audio (or a virtual cable), so you can add it as an **Audio Output Capture** or **Application Audio** source in OBS. One goal is to make co-op and party streams straightforward: one app, one party, one OBS source.
@@ -62,7 +87,7 @@ See [OBS-SETUP.md](docs/OBS-SETUP.md) for more detail.
 - `src/main/` — Electron main process: auth, API client, party/voice services, IPC.
 - `src/renderer/` — UI (React): login, party list, listening view.
 - `src/shared/` — Types, constants, config.
-- `docs/` — App docs (OBS setup, references, customMessage analysis).
+- `docs/` — **Documentation:** [docs/README.md](docs/README.md) is the index (getting started, troubleshooting, contributing, reference).
 
 ## Security and API usage
 
@@ -78,9 +103,11 @@ Reverse-engineering notes, HAR capture how-to (Frida, mitmproxy), endpoint docs,
 
 ## References and contributing
 
-**[docs/REFERENCES.md](docs/REFERENCES.md)** — External sources (Tustin/PlayStationPartyChat, PlayStation-Stars, Frida/mitmproxy, TLS fingerprinting) and a **"what we've tried"** summary for the customMessage 400 bug.
+- **Docs index:** [docs/README.md](docs/README.md) — getting started, troubleshooting, contributing, API reference.
+- **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md) — how to help (no reverse-engineering required to *use* the app; only to get OAuth credentials or to work on the customMessage 400 bug).
+- **References:** [docs/REFERENCES.md](docs/REFERENCES.md) — external projects and "what we've tried" for the 400 bug.
+- **Publishing:** [docs/PREPARING-FOR-GITHUB.md](docs/PREPARING-FOR-GITHUB.md) — checklist before you push.
 
-See **[CONTRIBUTING.md](CONTRIBUTING.md)** for how to help, especially with the **customMessage 400** bug (voice “Connecting…” for other party members). **Ready to submit to a repo?** See **[docs/PREPARING-FOR-GITHUB.md](docs/PREPARING-FOR-GITHUB.md)** for a short checklist and what not to commit.
 
 ## License
 

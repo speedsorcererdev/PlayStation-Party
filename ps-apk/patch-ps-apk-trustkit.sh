@@ -112,4 +112,4 @@ else
 fi
 
 echo "Done. Patched APK: $OUT_APK"
-echo "Uninstall current app in Bluestacks, then: adb -s 127.0.0.1:5555 install \"$OUT_APK\""
+echo "Uninstall current app in emulator/device, then: adb -s 127.0.0.1:5555 install \"$OUT_APK\""
