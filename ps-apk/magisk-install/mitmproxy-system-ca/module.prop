@@ -1,6 +1,0 @@
-id=mitmproxy-system-ca
-name=mitmproxy System CA
-version=v1.0
-versionCode=1
-author=PlayStation App setup
-description=Injects mitmproxy CA into system trust store so apps (e.g. PlayStation) trust the proxy on Android 7+.

@@ -19,10 +19,18 @@ logcat-*.log
 core_cache.db
 pixel-party-snapshot/logcat-relevant.txt
 
-# Decoded APK output (contains app-bundled AWS/Google keys — do not commit)
-ps-apk-decoded/
-ps-apk-frida-decoded/
-
 # Local paths / device-specific
 ps-app-base.apk
 *.apk
+
+# Binaries and caches (download or generate locally; do not commit)
+.frida-cache/
+okhttp_cache/
+frida-server-*
+lsposed-install/*.zip
+magisk-install/boot.img
+magisk-install/magisk_patched-*.img
+magisk-install/mitmproxy-ca.pem
+magisk-install/mitmproxy-system-ca.zip
+magisk-install/mitmproxy-system-ca/
+magisk-install/*.zip
