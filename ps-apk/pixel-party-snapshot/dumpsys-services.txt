@@ -1,0 +1,240 @@
+    getFgsAllowWiu_forCapabilities=DENIED
+    allowUiJobScheduling=false
+    recentCallingPackage=com.scee.psxandroid
+    recentCallingUid=10298
+    mAllowStart_noBinding=DENIED
+    mAllowStart_inBindService=FGS_BINDING
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=FGS_BINDING
+    getFgsAllowStart_new=DENIED
+    getFgsAllowStart=DENIED
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.google.android.webview; callingUid: 10190; uidState: SVC ; uidBFSL: n/a; intent: Intent { xflg=0x4 cmp=com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService }; code:FGS_BINDING; tempAllowListReason:<null>; allowWiu:-1; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:com.google.android.googlequicksearchbox: isBindService:true]
+    createTime=-7h8m34s714ms startingBgTimeout=--
+    lastActivity=-29s797ms restartTime=-7h8m34s714ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{5f0f8cd CREATE}:
+      intent={xflg=0x4 cmp=com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService}
+      binder=android.os.BinderProxy@ef69582
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5177493 ProcessRecord{3fe189d 13400:com.google.android.webview:webview_service/u0a190}}
+        Per-process Connections:
+          ConnectionRecord{a6d3f4b u0 CR com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService:@9de781a flags=0x1}
+      * Client AppBindRecord{d339cd0 ProcessRecord{43cb005 5459:com.google.android.webview:webview_apk/u0a190}}
+--
+      ConnectionRecord{c99aef2 u0 CR com.google.android.iwlan/.IwlanDataService:@193d1fd flags=0x1}
+
+  * ServiceRecord{380a623 u0 com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0 c:com.scee.psxandroid}
+    intent={cmp=com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0}
+    packageName=com.scee.psxandroid
+    processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+    targetSdkVersion=35
+    baseDir=/data/app/~~s-ey1wOK6vv_cOMTs8gmvg==/com.google.android.webview-P6G_PHM32ZSaozI7SEETuQ==/WebViewGoogle.apk
+    dataDir=/data/user/0/com.google.android.webview
+    app=ProcessRecord{fb748d9 19861:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a298i10}
+    isolationHostProc=ProcessRecord{fb748d9 19861:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a298i10}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=DENIED
+    mAllowWiu_inBindService=PROC_STATE_TOP
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=DENIED
+    getFgsAllowWiu_forStart=DENIED
+    getFgsAllowWiu_forCapabilities=DENIED
+    allowUiJobScheduling=false
+    recentCallingPackage=com.scee.psxandroid
+    recentCallingUid=10298
+    mAllowStart_noBinding=DENIED
+    mAllowStart_inBindService=PROC_STATE_TOP
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=DENIED
+    getFgsAllowStart=DENIED
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.scee.psxandroid; callingUid: 10298; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0 (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:true]
+    createTime=-28s388ms startingBgTimeout=--
+    lastActivity=-28s293ms restartTime=-28s293ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{5e50425 CREATE}:
+      intent={xflg=0x4 cmp=com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0}
+      binder=android.os.BinderProxy@36439fa
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{cb30bab ProcessRecord{cff93cc 19737:com.scee.psxandroid/u0a298}}
+        Per-process Connections:
+          ConnectionRecord{65352 u0 CR com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:@fb4cbdd flags=0x80000001}
+          ConnectionRecord{32d817f u0 CR WPRI com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:@a12529e flags=0x80000021}
+    All Connections:
+      ConnectionRecord{32d817f u0 CR WPRI com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:@a12529e flags=0x80000021}
+      ConnectionRecord{65352 u0 CR com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:@fb4cbdd flags=0x80000001}
+
+  * ServiceRecord{1bc1f5d u0 com.google.android.gms/.chimera.GmsBoundBrokerService c:com.google.android.apps.tachyon}
+    intent={act=com.google.android.mobstore.service.START pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms
+    targetSdkVersion=36
+    baseDir=/data/app/~~SZ1tpDs06Je2_sUcHmXo6A==/com.google.android.gms-NWnXq9WHilAr7eVTicl9LQ==/base.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{35fe234 2934:com.google.android.gms/u0a167}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=ACTIVITY_STARTER
+    mAllowWiu_inBindService=ACTIVITY_STARTER
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=ACTIVITY_STARTER
+    getFgsAllowWiu_new=ACTIVITY_STARTER
+    getFgsAllowWiu_forStart=ACTIVITY_STARTER
+    getFgsAllowWiu_forCapabilities=ACTIVITY_STARTER
+    allowUiJobScheduling=false
+--
+        Per-process Connections:
+          ConnectionRecord{5b1345a u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@779ec05 flags=0x1081}
+      * Client AppBindRecord{8f2359b ProcessRecord{cff93cc 19737:com.scee.psxandroid/u0a298}}
+        Per-process Connections:
+          ConnectionRecord{670fae8 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@f059c0b flags=0x1081}
+      * Client AppBindRecord{eea84d7 ProcessRecord{d26c0a6 4818:com.google.android.apps.messaging/u0a168}}
+        Per-process Connections:
+          ConnectionRecord{fb101c5 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@74a303c flags=0x1081}
+      * Client AppBindRecord{39e41c4 ProcessRecord{dbc0d6c 6046:com.google.android.apps.safetyhub/u0a169}}
+        Per-process Connections:
+          ConnectionRecord{e13adf5 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@6f82f2c flags=0x1081}
+      * Client AppBindRecord{403e8ad ProcessRecord{f9b9571 3256:com.google.euiccpixel/u0a247}}
+        Per-process Connections:
+          ConnectionRecord{d547df6 u0 CR WACT com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@9342a91 flags=0x81}
+    * IntentBindRecord{95cf7e2 CREATE}:
+      intent={act=com.google.android.gms.usagereporting.service.START xflg=0x4 pkg=com.google.android.gms}
+      binder=android.os.BinderProxy@ae89773
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{91fb630 ProcessRecord{c512c7 2756:com.google.android.gms.persistent/u0a167}}
+        Per-process Connections:
+          ConnectionRecord{cab6460 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@a9a6063 flags=0x1081}
+      * Client AppBindRecord{52362a9 ProcessRecord{2b49c98 4474:com.google.android.apps.pixel.customizationbundle/u0a155}}
+        Per-process Connections:
+--
+      ConnectionRecord{b919af5 u0 CR !FG !VIS com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService:@735b02c flags=0x40000005}
+
+  * ServiceRecord{156ac2b u0 com.scee.psxandroid/com.playstation.party.ForegroundService c:com.scee.psxandroid}
+    intent={cmp=com.scee.psxandroid/com.playstation.party.ForegroundService}
+    packageName=com.scee.psxandroid
+    processName=com.scee.psxandroid
+    targetSdkVersion=35
+    baseDir=/data/app/~~is3pK15ymXSKRMFvsubLHQ==/com.scee.psxandroid-tebmhh91RqNqJuuet5neOw==/base.apk
+    dataDir=/data/user/0/com.scee.psxandroid
+    app=ProcessRecord{cff93cc 19737:com.scee.psxandroid/u0a298}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=PROC_STATE_TOP
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=PROC_STATE_TOP
+    getFgsAllowWiu_forStart=PROC_STATE_TOP
+    getFgsAllowWiu_forCapabilities=PROC_STATE_TOP
+    allowUiJobScheduling=false
+    recentCallingPackage=com.scee.psxandroid
+    recentCallingUid=10298
+    mAllowStart_noBinding=PROC_STATE_TOP
+    mAllowStart_inBindService=DENIED
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=PROC_STATE_TOP
+    getFgsAllowStart=PROC_STATE_TOP
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.scee.psxandroid; callingUid: 10298; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.scee.psxandroid/com.playstation.party.ForegroundService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:35; callerTargetSdkVersion:35; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    isForeground=true foregroundId=1991605310 types=0x00000080 foregroundNoti=Notification(channel=040_Party shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE|NO_CLEAR|FOREGROUND_SERVICE color=0xff00439c vis=PRIVATE)
+    createTime=-15s416ms startingBgTimeout=--
+    lastActivity=-15s415ms restartTime=-15s415ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+ startCommandResult=2
+
+  * ServiceRecord{87ec808 u0 com.google.android.gms/.dtdi.lifecycle.LifecycleService c:com.google.android.gms}
+    intent={act=android.intent.action.BOOT_COMPLETED pkg=com.google.android.gms cmp=com.google.android.gms/.dtdi.lifecycle.LifecycleService}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    targetSdkVersion=36
+    baseDir=/data/app/~~SZ1tpDs06Je2_sUcHmXo6A==/com.google.android.gms-NWnXq9WHilAr7eVTicl9LQ==/base.apk
+    dataDir=/data/user/0/com.google.android.gms
+    app=ProcessRecord{c512c7 2756:com.google.android.gms.persistent/u0a167}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=ACTIVITY_STARTER
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=DENIED
+--
+    conn=android.os.BinderProxy@a083117 flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{32d817f u0 CR WPRI com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:@a12529e flags=0x80000021}
+    binding=AppBindRecord{cb30bab com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:com.scee.psxandroid}
+    conn=android.os.BinderProxy@a12529e flags=0x80000021
+    ongoingCalls=false
+  * ConnectionRecord{caf6534 u0 CR WACT CAPS com.google.android.gms/.chimera.GmsBoundBrokerService:@a255007 flags=0x1081}
+    binding=AppBindRecord{4f0ee09 com.google.android.gms/.chimera.GmsBoundBrokerService:com.google.android.apps.tachyon}
+    conn=android.os.BinderProxy@a255007 flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{21ea2b7 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@a2ad5b6 flags=0x1081}
+    binding=AppBindRecord{276c783 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.carrier}
+    conn=android.os.BinderProxy@a2ad5b6 flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{3d29dbc u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@a3775af flags=0x1081}
+    binding=AppBindRecord{443f63d com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.apps.tachyon}
+    conn=android.os.BinderProxy@a3775af flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{1c7e5fd u0 CR WACT CAPS com.google.android.gms/.chimera.GmsApiService:@a49a254 flags=0x1081}
+    binding=AppBindRecord{97a3996 com.google.android.gms/.chimera.GmsApiService:com.google.android.apps.safetyhub}
+    conn=android.os.BinderProxy@a49a254 flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{d52234f u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentApiService:@a6019ae flags=0x1081}
+    binding=AppBindRecord{c8b44bb com.google.android.gms/.chimera.PersistentApiService:com.google.android.apps.photos}
+--
+    ongoingCalls=false
+  * ConnectionRecord{670fae8 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@f059c0b flags=0x1081}
+    binding=AppBindRecord{8f2359b com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.scee.psxandroid}
+    conn=android.os.BinderProxy@f059c0b flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{a2434f9 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@f521fc0 flags=0x1081}
+    binding=AppBindRecord{6fee84c com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.googlequicksearchbox:googleapp}
+    conn=android.os.BinderProxy@f521fc0 flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{4ade55b u0 CR com.google.android.grilservice/.GRilService:@f60ac6a flags=0x1}
+    binding=AppBindRecord{75ebe5d com.google.android.grilservice/.GRilService:com.google.android.apps.scone}
+    conn=android.os.BinderProxy@f60ac6a flags=0x1
+    ongoingCalls=false
+  * ConnectionRecord{5ccce69 u0 CR com.samsung.slsi.telephony.oemril/.service.OemRilService:@fa078f0 flags=0x1}
+    binding=AppBindRecord{45ec950 com.samsung.slsi.telephony.oemril/.service.OemRilService:com.samsung.slsi.telephony.oemril}
+    conn=android.os.BinderProxy@fa078f0 flags=0x1
+    ongoingCalls=false
+  * ConnectionRecord{65352 u0 CR com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:@fb4cbdd flags=0x80000001}
+    binding=AppBindRecord{cb30bab com.scee.psxandroid/org.chromium.content.app.SandboxedProcessService0:0:com.scee.psxandroid}
+    conn=android.os.BinderProxy@fb4cbdd flags=0x80000001
+    ongoingCalls=false
+  * ConnectionRecord{9c46683 u0 CR com.android.systemui/.keyguard.KeyguardService:@fb95932 flags=0x1}
+    binding=AppBindRecord{b12fe64 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@fb95932 flags=0x1
+    ongoingCalls=false
+  * ConnectionRecord{ecbd57b u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentApiService:@fbdc90a flags=0x1081}
+    binding=AppBindRecord{ba4836d com.google.android.gms/.chimera.PersistentApiService:com.google.android.apps.restore}
+    conn=android.os.BinderProxy@fbdc90a flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{eb0fa9d u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@fcda574 flags=0x1081}
+    binding=AppBindRecord{4020c90 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.gms.ui}
+    conn=android.os.BinderProxy@fcda574 flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{d2efa6c u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@fed971f flags=0x1081}
+    binding=AppBindRecord{17eb939 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.apps.pixel.support}
+    conn=android.os.BinderProxy@fed971f flags=0x1081
+    ongoingCalls=false
+  * ConnectionRecord{d3022f0 u0 CR WACT CAPS com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:@ff7bf33 flags=0x1081}
+    binding=AppBindRecord{e514cd5 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService:com.google.android.apps.wellbeing}
+--
+
+Active foreground apps - user 0:
+  #1: com.scee.psxandroid
+    mNumActive=1 mAppOnTop=true mShownWhileTop=true mShownWhileScreenOn=true
+    mStartTime=-15s416ms mStartVisibleTime=-15s416ms
+  #0: com.google.android.setupwizard
+    mNumActive=1 mAppOnTop=false mShownWhileTop=false mShownWhileScreenOn=true
+    mStartTime=-7h49m35s756ms mStartVisibleTime=-7h49m35s756ms

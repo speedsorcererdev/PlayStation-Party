@@ -1,0 +1,12 @@
+{
+    "secondaryPinningDomain": [
+        "*.mgmt.playstation.com",
+        "*.mgmt.account.sony.com",
+        "*.mgmt.playstation.net",
+        "*.mgmt.api.playstation.com",
+        "*.mgmt.community.playstation.net",
+        "*.api.mgmt.km.playstation.net",
+        "*.idmapper.mgmt.api.playstation.com",
+        "*.api.mgmt.sonyentertainmentnetwork.com"
+    ]
+}

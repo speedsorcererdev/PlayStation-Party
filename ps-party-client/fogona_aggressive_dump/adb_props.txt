@@ -1,0 +1,6 @@
+user
+1
+0
+green
+arm64-v8a
+1

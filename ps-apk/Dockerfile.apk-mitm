@@ -1,0 +1,9 @@
+# x86_64 Linux so Java doesn't SIGBUS (avoids ARM Mac issue)
+FROM --platform=linux/amd64 node:20-bookworm-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends openjdk-17-jre-headless && rm -rf /var/lib/apt/lists/*
+
+RUN npm install -g apk-mitm
+
+WORKDIR /work
+ENTRYPOINT ["apk-mitm"]

@@ -1,0 +1,23 @@
+https://m.np.playstation.com/api/userProfile/v1/internal/users/me/friends/9053875315371438889/summary
+GET
+0
+HTTP/1.1 200 
+13
+content-type: application/json
+content-length: 110
+server: Apache
+cache-control: private
+x-psn-track-id: 0198808059218891172
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, PATCH
+access-control-allow-headers: Authorization, Cache-Control, Content-Type, X-Requested-With, Accept-Language, Date, X-Psn-Np-Title-Id, X-Psn-Platform, X-Psn-Request-Id, X-Psn-Sampled, X-Psn-Span-Id, X-Psn-Trace-Id
+date: Sun, 15 Feb 2026 02:54:16 GMT
+strict-transport-security: max-age=63072000; includeSubDomains
+x-content-type-options: nosniff
+OkHttp-Sent-Millis: 1771124057802
+OkHttp-Received-Millis: 1771124058047
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

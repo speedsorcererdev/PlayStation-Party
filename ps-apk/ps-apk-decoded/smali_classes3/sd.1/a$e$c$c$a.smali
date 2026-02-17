@@ -1,0 +1,72 @@
+.class final Lsd/a$e$c$c$a;
+.super Ljava/lang/Object;
+.source "JvmProtoBuf.java"
+
+# interfaces
+.implements Lwd/j$b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lsd/a$e$c$c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lwd/j$b<",
+        "Lsd/a$e$c$c;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(I)Lwd/j$a;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lsd/a$e$c$c$a;->b(I)Lsd/a$e$c$c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public b(I)Lsd/a$e$c$c;
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Lsd/a$e$c$c;->b(I)Lsd/a$e$c$c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

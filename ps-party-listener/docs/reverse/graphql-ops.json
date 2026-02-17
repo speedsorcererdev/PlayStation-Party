@@ -1,0 +1,149 @@
+[
+  {
+    "operationName": "metGetUserIdentity",
+    "variables": {},
+    "hash": "28f8ec8a41384b63fb05bc13e3a2a5aa377ade9ba02d0d0900313cc06c3a9a84"
+  },
+  {
+    "operationName": "metGetExperience",
+    "variables": {
+      "clientId": "128970ab-bfa9-11ee-ad2a-aea73dc1ea43"
+    },
+    "hash": "d929f5b4633826b7c0152b26fbc0400846190d389b4c99554052317431980fe9"
+  },
+  {
+    "operationName": "metGetCategoryStrands",
+    "variables": {
+      "strands": [
+        {
+          "id": "fbb563aa-c602-476d-bb92-fe7f35080205",
+          "pageArgs": {
+            "size": 12
+          }
+        },
+        {
+          "id": "e1699f77-77e1-43ca-a296-26d08abacb0f",
+          "pageArgs": {
+            "size": 12
+          }
+        },
+        {
+          "id": "3bf499d7-7acf-4931-97dd-2667494ee2c9",
+          "pageArgs": {
+            "size": 12
+          }
+        }
+      ]
+    },
+    "hash": "694d0ddebfdb63af4124c98238458964d3b8ec3e562dc1e9585634bd287d1272"
+  },
+  {
+    "operationName": "metGetRecentPlayedTitles",
+    "variables": {
+      "accountId": "<redacted>",
+      "count": 3,
+      "categories": "ps4_game,ps5_native_game,pspc_game",
+      "shouldFetchCodex": true
+    },
+    "hash": "2fd023209ae806e5ed59c0dc061c1a49fcd51788226d549b1c8cb310be2da9ba"
+  },
+  {
+    "operationName": "metGetAccount",
+    "variables": {
+      "accountId": "me"
+    },
+    "hash": "cf4a30b890cbabb8e0bc7e7f3f51e290c0ee271b3b36bb3d05216eb81223843a"
+  },
+  {
+    "operationName": "metGetWishlistedItemIds",
+    "variables": {},
+    "hash": "b6806dfb753534531c49cd087c5645d3f2293a292b360eeb7fd917f7c77b67dc"
+  },
+  {
+    "operationName": "metGetConceptById",
+    "variables": {
+      "conceptId": "201930"
+    },
+    "hash": "43967a61712bbbe343fdf7d1a190b19fa6e20db59692d956a84c14a496ee00b6"
+  },
+  {
+    "operationName": "metGetFriendsWhoPlayOverviewByConceptId",
+    "variables": {
+      "conceptId": "201930"
+    },
+    "hash": "5143c667873bfc66375b6b9ff6d65ca91b2fc1684241519f8ed6f5eabfb6e5a6"
+  },
+  {
+    "operationName": "metGetPricingDataByConceptId",
+    "variables": {
+      "conceptId": "201930"
+    },
+    "hash": "8eb1e14b1b3bec8d0d50ea0a6888454160d20205b40dd8b4983bae7e8c49abd4"
+  },
+  {
+    "operationName": "metGetPersonalizedEMSComponents",
+    "variables": {
+      "experienceId": "23da4a2e-bfab-11ee-b375-5e45f4e139ac",
+      "viewId": "72e45134-cfce-11ee-9d6a-d6ec549ae369"
+    },
+    "hash": "0b5de760f13f65424c72b4fc593f78abe19af8d823208f0bb77835d11369331b"
+  },
+  {
+    "operationName": "metGetWebCheckoutCart",
+    "variables": {},
+    "hash": "2d4165c4de76877a32f3d08c91ce2af0e01d69300131fed0a8022868235e85b1"
+  },
+  {
+    "operationName": "metGetViews",
+    "variables": {
+      "viewInputs": [
+        {
+          "viewId": "93cae9c8-d0d7-11ee-9d6a-d6ec549ae369",
+          "experienceId": "23da4a2e-bfab-11ee-b375-5e45f4e139ac"
+        },
+        {
+          "viewId": "b33ad143-d1cb-11ee-a31f-a2110459ffc0",
+          "experienceId": "23da4a2e-bfab-11ee-b375-5e45f4e139ac"
+        },
+        {
+          "viewId": "d34fd64b-d23f-11ee-a31f-a2110459ffc0",
+          "experienceId": "23da4a2e-bfab-11ee-b375-5e45f4e139ac"
+        },
+        {
+          "viewId": "8409957d-d0d4-11ee-9d6a-d6ec549ae369",
+          "experienceId": "23da4a2e-bfab-11ee-b375-5e45f4e139ac"
+        },
+        {
+          "viewId": "371174da-d4a9-11ee-9d6a-d6ec549ae369",
+          "experienceId": "23da4a2e-bfab-11ee-b375-5e45f4e139ac"
+        }
+      ]
+    },
+    "hash": "45985858fe495c3af543eab5fe1f7ad4aa982da4bbecdd67cdaac846934d5fc9"
+  },
+  {
+    "operationName": "metGetCategoryGrids",
+    "variables": {
+      "grids": [
+        {
+          "id": "28c9c2b2-cecc-415c-9a08-482a605cb104",
+          "filterBy": [],
+          "pageArgs": {
+            "size": 12,
+            "offset": 0
+          }
+        }
+      ]
+    },
+    "hash": "78bb501c9e6073c728f1c50628d0ca4efee1fbfac3f93af8079a9d5faac159a1"
+  },
+  {
+    "operationName": "metGetContextSearchResults",
+    "variables": {
+      "searchTerm": "Inertiaps",
+      "searchContext": "MobileUniversalSearchSocial",
+      "displayTitleLocale": "en-US"
+    },
+    "hash": "9050a5cdb17633ab3a46c74e6f6de21b716db90e0a31be5c50b200dc7406aed2"
+  }
+]

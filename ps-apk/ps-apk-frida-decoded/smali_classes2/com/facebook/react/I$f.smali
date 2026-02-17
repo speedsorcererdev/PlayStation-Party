@@ -1,0 +1,96 @@
+.class Lcom/facebook/react/I$f;
+.super Ljava/lang/Object;
+.source "ReactInstanceManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/facebook/react/I;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2
+    name = "f"
+.end annotation
+
+
+# instance fields
+.field private final a:Lcom/facebook/react/bridge/JavaScriptExecutorFactory;
+
+.field private final b:Lcom/facebook/react/bridge/JSBundleLoader;
+
+.field final synthetic c:Lcom/facebook/react/I;
+
+
+# direct methods
+.method public constructor <init>(Lcom/facebook/react/I;Lcom/facebook/react/bridge/JavaScriptExecutorFactory;Lcom/facebook/react/bridge/JSBundleLoader;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/facebook/react/I$f;->c:Lcom/facebook/react/I;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {p2}, La6/a;->c(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    check-cast p1, Lcom/facebook/react/bridge/JavaScriptExecutorFactory;
+
+    .line 11
+    .line 12
+    iput-object p1, p0, Lcom/facebook/react/I$f;->a:Lcom/facebook/react/bridge/JavaScriptExecutorFactory;
+
+    .line 13
+    .line 14
+    invoke-static {p3}, La6/a;->c(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p1
+
+    .line 18
+    check-cast p1, Lcom/facebook/react/bridge/JSBundleLoader;
+
+    .line 19
+    .line 20
+    iput-object p1, p0, Lcom/facebook/react/I$f;->b:Lcom/facebook/react/bridge/JSBundleLoader;
+
+    .line 21
+    .line 22
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Lcom/facebook/react/bridge/JSBundleLoader;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/facebook/react/I$f;->b:Lcom/facebook/react/bridge/JSBundleLoader;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public b()Lcom/facebook/react/bridge/JavaScriptExecutorFactory;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/facebook/react/I$f;->a:Lcom/facebook/react/bridge/JavaScriptExecutorFactory;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

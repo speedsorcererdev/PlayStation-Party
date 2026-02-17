@@ -1,0 +1,4 @@
+(bootloader) 'reboot' is not a supported oem command
+(bootloader) See 'fastboot oem help'
+FAILED (remote: '')
+fastboot: error: Command failed

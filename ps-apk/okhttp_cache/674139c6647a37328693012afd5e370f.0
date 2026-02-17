@@ -1,0 +1,21 @@
+https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png
+GET
+0
+HTTP/1.1 200 
+11
+etag: "741202f8359e303bf6eeb454f0940f97:1701124177.193043"
+last-modified: Thu, 03 Apr 2025 23:25:22 GMT
+server: Akamai Image Manager
+x-serial: 1325
+content-length: 6952
+content-type: image/png
+cache-control: public,  no-transform, max-age=86400, stale-while-revalidate=2592000, stale-if-error=2592000
+expires: Sun, 15 Feb 2026 14:53:44 GMT
+date: Sun, 15 Feb 2026 02:53:44 GMT
+OkHttp-Sent-Millis: 1771124026270
+OkHttp-Received-Millis: 1771124026369
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

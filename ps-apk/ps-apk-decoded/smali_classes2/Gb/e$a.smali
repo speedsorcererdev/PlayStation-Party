@@ -1,0 +1,49 @@
+.class LGb/e$a;
+.super LGb/d;
+.source "NpHttpMessage.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LGb/e;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field private final c:J
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;J)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, LGb/d;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-wide p3, p0, LGb/e$a;->c:J
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public c()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, LGb/e$a;->c:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method

@@ -1,0 +1,14 @@
+[
+  "psn:sessionManager:sys:v2:ps:members:created",
+  "psn:sessionManager:sys:v2:partySession:created",
+  "psn:sessionManager:sys:v2:ps:m:customData4:updated",
+  "psn:sessionManager:sys:outside:v2:partySession:deleted",
+  "psn:sessionManager:sys:v2:ps:m:customData3:updated",
+  "psn:sessionManager:sys:v2:ps:customMessage:noSeq:created",
+  "psn:sessionManager:sys:v2:ps:sessionName:updated",
+  "psn:sessionManager:sys:v2:ps:visibilityType:updated",
+  "psn:sessionManager:sys:outside:v2:ps:visibilityType:updated",
+  "psn:sessionManager:sys:v2:ps:joinableUserType:updated",
+  "psn:sessionManager:sys:outside:v2:ps:joinableUserType:updated",
+  "psn:sessionManager:sys:v2:ps:maxMembers:updated"
+]

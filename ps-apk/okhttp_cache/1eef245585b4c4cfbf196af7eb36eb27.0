@@ -1,0 +1,23 @@
+https://m.np.playstation.com/api/userProfile/v2/internal/users/basicPresences?accountIds=9053875315371438889&platforms=PS4%2CPS5%2CMOBILE_APP%2CPSPC&type=primary&withOwnGameTitleInfo=true
+GET
+0
+HTTP/1.1 200 
+13
+content-type: application/json
+content-length: 242
+server: Apache
+cache-control: private
+x-psn-track-id: 0762183114569361322
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, PATCH
+access-control-allow-headers: Authorization, Cache-Control, Content-Type, X-Requested-With, Accept-Language, Date, X-Psn-Np-Title-Id, X-Psn-Platform, X-Psn-Request-Id, X-Psn-Sampled, X-Psn-Span-Id, X-Psn-Trace-Id
+date: Sun, 15 Feb 2026 06:13:21 GMT
+strict-transport-security: max-age=63072000; includeSubDomains
+x-content-type-options: nosniff
+OkHttp-Sent-Millis: 1771136002648
+OkHttp-Received-Millis: 1771136002922
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

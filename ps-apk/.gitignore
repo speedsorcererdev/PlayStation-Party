@@ -1,0 +1,24 @@
+# Captures with real tokens / account IDs (do not commit)
+customMessage_204_request.json
+customMessage_204_body.json
+decoded_custommessage_all.txt
+frida-session-log.txt
+captured-*.json
+*-body.json
+pixel-extracted-session-ids.txt
+
+# HAR exports may contain Bearer tokens and account IDs — do not commit
+flows*_export.har
+
+# Logs and URL dumps (may contain account IDs / usernames)
+psapp-logcat.txt
+flows5_url_counts.txt
+*_url_counts.txt
+logcat-*.txt
+logcat-*.log
+core_cache.db
+pixel-party-snapshot/logcat-relevant.txt
+
+# Local paths / device-specific
+ps-app-base.apk
+*.apk

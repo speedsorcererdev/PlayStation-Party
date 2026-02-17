@@ -1,0 +1,24 @@
+https://m.np.playstation.com/api/userProfile/v2/internal/users/basicPresences?accountIds=865505754579514325&platforms=PS4%2CPS5%2CMOBILE_APP%2CPSPC&type=primary&withOwnGameTitleInfo=true
+GET
+0
+HTTP/1.1 200 
+14
+content-type: application/json
+content-length: 248
+server: Apache
+cache-control: private
+x-psn-track-id: 0317179095130483225
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, PATCH
+access-control-allow-headers: Authorization, Cache-Control, Content-Type, X-Requested-With, Accept-Language, Date, X-Psn-Np-Title-Id, X-Psn-Platform, X-Psn-Request-Id, X-Psn-Sampled, X-Psn-Span-Id, X-Psn-Trace-Id
+date: Sun, 15 Feb 2026 06:16:15 GMT
+strict-transport-security: max-age=63072000; includeSubDomains
+x-content-type-options: nosniff
+set-cookie: _abck=9F1698126F44DE59618DDA8CAFBD2790~-1~YAAQjqA7Fx1hKSicAQAAo03xXw/n7deE3XkZW71R0GxamBKVJSfCCS7JUjmGGy0LDY+lMoKI3O5sKEw2UOV2H6PmBs0qSJy2xPuFM3D1VZCoSj7Ya27vfxC+T3nway7WRMxCfIzUNg198tFu4d/x+3P6GlGYiguNoeBUIpOFn91jttS9lF2HOXS1+NJDxmvKLwnOMVaMGVYntQ8qbwtDbIU+29oVZo6U4Ppb4znM7PNkBCsllT6yXn64KBZY5a8dsTjoaoxlwRZYN9FwYAr6ttrDYeL8mI1axh+U74+bjc6wa97Acqygncbk+iF7SlrPZgeK5ixqwz4mHqBh+FSZhJG1KsHmszHXbn1dZ7Rb9Hb9Esk+PzbWYQJoCwhuJVphzVnrRzKbee6MNNBPhLcmLHMSfhz0ToFxgxafW11f8hclsZ2zdAAnBGAKp+ZfIVZNy2gq4jKOpqVeLwwjfg==~-1~-1~-1~-1~-1; Domain=.playstation.com; Path=/; Expires=Mon, 15 Feb 2027 06:16:15 GMT; Max-Age=31536000; Secure
+OkHttp-Sent-Millis: 1771136177095
+OkHttp-Received-Millis: 1771136177362
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

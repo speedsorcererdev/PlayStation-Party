@@ -1,0 +1,21 @@
+https://image.api.playstation.com/vulcan/ap/rnd/202601/3023/c649172e4bcd9a955042b1cda37d4c2974dcf58b2a70b1ef.png?w=200&thumb=false
+GET
+0
+HTTP/1.1 200 
+11
+etag: "7886198931ed7cff7c42b36095b6b27c:1769816176.341223"
+last-modified: Thu, 05 Feb 2026 17:06:19 GMT
+server: Akamai Image Manager
+x-serial: 316
+content-length: 78313
+content-type: image/jpeg
+cache-control: public,  no-transform, max-age=86400, stale-while-revalidate=2592000, stale-if-error=2592000
+expires: Sun, 15 Feb 2026 14:54:03 GMT
+date: Sun, 15 Feb 2026 02:54:03 GMT
+OkHttp-Sent-Millis: 1771124045223
+OkHttp-Received-Millis: 1771124045262
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

@@ -1,0 +1,19 @@
+https://m.np.playstation.com/api/userNotificationManager/v1/users/me/notifications?limit=100&offset=0&sinceUpdatedDateTime=2026-02-15T02%3A51%3A33.298Z&templateVersion=26.01
+GET
+0
+HTTP/1.1 200 
+9
+content-type: application/json
+content-length: 260
+server: Apache
+cache-control: private
+date: Sun, 15 Feb 2026 06:15:10 GMT
+strict-transport-security: max-age=63072000; includeSubDomains
+x-content-type-options: nosniff
+OkHttp-Sent-Millis: 1771136111695
+OkHttp-Received-Millis: 1771136111946
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

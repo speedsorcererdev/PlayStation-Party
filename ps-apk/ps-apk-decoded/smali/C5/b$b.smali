@@ -1,0 +1,176 @@
+.class public final enum LC5/b$b;
+.super Ljava/lang/Enum;
+.source "AnimatedDrawableFrameInfo.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LC5/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "LC5/b$b;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final enum q:LC5/b$b;
+
+.field public static final enum u:LC5/b$b;
+
+.field public static final enum v:LC5/b$b;
+
+.field private static final synthetic w:[LC5/b$b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 5
+
+    .line 1
+    new-instance v0, LC5/b$b;
+
+    .line 2
+    .line 3
+    const-string v1, "DISPOSE_DO_NOT"
+
+    .line 4
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    invoke-direct {v0, v1, v2}, LC5/b$b;-><init>(Ljava/lang/String;I)V
+
+    .line 7
+    .line 8
+    .line 9
+    sput-object v0, LC5/b$b;->q:LC5/b$b;
+
+    .line 10
+    .line 11
+    new-instance v1, LC5/b$b;
+
+    .line 12
+    .line 13
+    const-string v2, "DISPOSE_TO_BACKGROUND"
+
+    .line 14
+    .line 15
+    const/4 v3, 0x1
+
+    .line 16
+    invoke-direct {v1, v2, v3}, LC5/b$b;-><init>(Ljava/lang/String;I)V
+
+    .line 17
+    .line 18
+    .line 19
+    sput-object v1, LC5/b$b;->u:LC5/b$b;
+
+    .line 20
+    .line 21
+    new-instance v2, LC5/b$b;
+
+    .line 22
+    .line 23
+    const-string v3, "DISPOSE_TO_PREVIOUS"
+
+    .line 24
+    .line 25
+    const/4 v4, 0x2
+
+    .line 26
+    invoke-direct {v2, v3, v4}, LC5/b$b;-><init>(Ljava/lang/String;I)V
+
+    .line 27
+    .line 28
+    .line 29
+    sput-object v2, LC5/b$b;->v:LC5/b$b;
+
+    .line 30
+    .line 31
+    filled-new-array {v0, v1, v2}, [LC5/b$b;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v0
+
+    .line 35
+    sput-object v0, LC5/b$b;->w:[LC5/b$b;
+
+    .line 36
+    .line 37
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)LC5/b$b;
+    .locals 1
+
+    .line 1
+    const-class v0, LC5/b$b;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, LC5/b$b;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method
+
+.method public static values()[LC5/b$b;
+    .locals 1
+
+    .line 1
+    sget-object v0, LC5/b$b;->w:[LC5/b$b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, [LC5/b$b;->clone()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, [LC5/b$b;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method

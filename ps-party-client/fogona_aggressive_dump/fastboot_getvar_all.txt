@@ -1,0 +1,87 @@
+(bootloader) kernel: uefi
+(bootloader) version-bootloader[0]: MBM-3.0-fogona-8a6797a117f-250831-U1
+(bootloader) version-bootloader[1]: TFS34.100-35-14-1-4-1ab43
+(bootloader) product: fogona
+(bootloader) board: fogona
+(bootloader) secure: yes
+(bootloader) lcs-state: NOT_SET
+(bootloader) hwrev: PVT
+(bootloader) radio: RET
+(bootloader) storage-type: UFS
+(bootloader) emmc: N/A
+(bootloader) ufs: 64GB KINGSTON TY7B-64G FV=0004 WB=2048
+(bootloader) ram: 4GB SAMSUNG LP4x DIE=4Gb M5-M8=01 03 00 00
+(bootloader) cpu: SM_DIVAR 1.0
+(bootloader) serialno: ZY22L8H34G
+(bootloader) cid: 0x0033
+(bootloader) channelid: 0x8c
+(bootloader) uid: 721A0EBC001B80E1
+(bootloader) token: inactive
+(bootloader) securestate: oem_locked
+(bootloader) factory-modes: disabled
+(bootloader) verity-state: enforcing (0)
+(bootloader) iswarrantyvoid: no
+(bootloader) chipid: 0000043A721A0EBC
+(bootloader) max-download-size: 784068608
+(bootloader) reason: Reboot mode set to fastboot
+(bootloader) imei: 355179435760304
+(bootloader) imei2: 
+(bootloader) esimid: 
+(bootloader) meid: 
+(bootloader) date: 02-24-2025
+(bootloader) sku: XT2413V
+(bootloader) carrier_sku: XT2413V
+(bootloader) battid: SB18D96854
+(bootloader) battery-voltage: 3830
+(bootloader) iccid: 
+(bootloader) cust_md5: 
+(bootloader) max-sparse-size: 268435456
+(bootloader) poweroffalarm: 0
+(bootloader) ro.carrier: tracfone
+(bootloader) ro.build.fingerprint[0]: motorola/fogona_g/fogona:14/U1TFS3
+(bootloader) ro.build.fingerprint[1]: 4.100-35-14-1-4/1ab43-484336:user/
+(bootloader) ro.build.fingerprint[2]: release-keys
+(bootloader) ro.build.version.qcom[0]: AU_LINUX_ANDROID_LA.VENDOR.13.2.1
+(bootloader) ro.build.version.qcom[1]: .R1.11.00.00.587.093
+(bootloader) version-baseband: HA12_26.35.01.59R FOGONA_RET_CUST
+(bootloader) kernel.version[0]: Linux version 5.15.167-android13-8-00004
+(bootloader) kernel.version[1]: -gc45ba1d7a722-ab13116688 (build-user@bu
+(bootloader) kernel.version[2]: ild-host) (Android (8508608, based on r4
+(bootloader) kernel.version[3]: 50784e) clang version 14.0.7 (https://an
+(bootloader) kernel.version[4]: droid.googlesource.com/toolchain/llvm-pr
+(bootloader) kernel.version[5]: oject 4c603efb0cca074e9238af8b4106c30add
+(bootloader) kernel.version[6]: 4418f6), LLD 14.0.7) #1 SMP PREEMPT Mon 
+(bootloader) kernel.version[7]: Feb 24 23:11:03 UTC 2025
+(bootloader) git:xbl: MBM-3.0-fogona-2902df5ac-250831
+(bootloader) git:xbl_config: MBM-3.0-fogona-2902df5ac-250831
+(bootloader) git:abl[0]: MBM-3.0-fogona-8a6797a117f-250831-U1TFS34.100-3
+(bootloader) git:abl[1]: 5-14-1-4-1ab43
+(bootloader) git:rpm: MBM-3.0-fogona-0eecbe9-250831
+(bootloader) git:tz: MBM-3.0-fogona-69a9cce2-250831
+(bootloader) git:hyp: MBM-3.0-fogona-69a9cce2-250831
+(bootloader) git:devcfg: MBM-3.0-fogona-69a9cce2-250831
+(bootloader) git:keymaster: MBM-3.0-fogona-9199343a-250831
+(bootloader) git:storsec: MBM-3.0-fogona-9199343a-250831
+(bootloader) git:uefisecapp: MBM-3.0-fogona-9199343a-250831
+(bootloader) git:prov: MBM-3.0-fogona-69a9cce2-250831
+(bootloader) git:qupfw: MBM-3.0-fogona-ff82800-250831
+(bootloader) frp-state: no protection (0)
+(bootloader) current-slot: b
+(bootloader) running-bl-slot: _b/_b
+(bootloader) running-boot-lun: 2
+(bootloader) slot-count: 2
+(bootloader) slot-successful:_a: yes
+(bootloader) slot-successful:_b: yes
+(bootloader) slot-unbootable:_a: no
+(bootloader) slot-unbootable:_b: no
+(bootloader) slot-retry-count:_a: 6
+(bootloader) slot-retry-count:_b: 6
+(bootloader) logical-block-size: 0x1000
+(bootloader) erase-block-size: 0x1000
+(bootloader) is-userspace: no
+(bootloader) pcb-part-no: SB28D97807
+(bootloader) primary-display: tm_icnl9916c_720x1600_652_vid
+(bootloader) secondary-display: 
+(bootloader) fdr-allowed: yes
+all: listed above
+Finished. Total time: 0.075s

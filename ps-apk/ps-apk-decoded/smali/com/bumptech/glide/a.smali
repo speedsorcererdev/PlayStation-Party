@@ -1,0 +1,38 @@
+.class final Lcom/bumptech/glide/a;
+.super Ljava/lang/Object;
+.source "GeneratedRequestManagerFactory.java"
+
+# interfaces
+.implements Lm4/p$b;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/bumptech/glide/c;Lm4/l;Lm4/q;Landroid/content/Context;)Lcom/bumptech/glide/l;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/dylanvann/fastimage/GlideRequests;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p1, p2, p3, p4}, Lcom/dylanvann/fastimage/GlideRequests;-><init>(Lcom/bumptech/glide/c;Lm4/l;Lm4/q;Landroid/content/Context;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method

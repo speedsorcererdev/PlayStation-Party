@@ -1,0 +1,39 @@
+# Environment and secrets (never commit)
+.env
+.env.local
+.env.*.local
+*.local
+
+# Dependencies and build output
+node_modules/
+dist-main/
+dist-renderer/
+dist-shared/
+release/
+*.log
+.DS_Store
+
+# App debug / capture artifacts
+customMessage-400-detail.txt
+customMessage-debug.log
+customMessage-last-request.txt
+customMessage-write-error.txt
+.customMessage-debug-path
+customMessage_204_body.json
+customMessage_204_request.json
+run-log.txt
+run-log-*.txt
+run-log-issues.md
+
+# ps-apk: HAR, captures, logs (contain tokens / account IDs)
+ps-apk/flows*_export.har
+ps-apk/decoded_custommessage_all.txt
+ps-apk/frida-session-log.txt
+ps-apk/captured-*.json
+ps-apk/*-body.json
+ps-apk/psapp-logcat.txt
+ps-apk/flows5_url_counts.txt
+ps-apk/*_url_counts.txt
+ps-apk/pixel-extracted-session-ids.txt
+ps-apk/*.apk
+ps-apk/ps-app-base.apk

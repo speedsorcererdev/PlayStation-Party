@@ -1,0 +1,154 @@
+[
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/authorize",
+    "method": "GET",
+    "headers": [],
+    "bodyKeys": []
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "OPTIONS",
+    "headers": [],
+    "bodyKeys": []
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "POST",
+    "headers": [
+      "X-Psn-Sampled",
+      "X-Psn-Span-Id",
+      "Content-Type",
+      "X-Psn-Request-Id",
+      "X-Psn-Origin-Client-Id",
+      "X-Psn-Correlation-Id",
+      "X-Psn-Trace-Id"
+    ],
+    "bodyKeys": [
+      "grant_type",
+      "scope",
+      "client_id",
+      "client_secret",
+      "duid"
+    ]
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "POST",
+    "headers": [
+      "X-Psn-Sampled",
+      "X-Psn-Span-Id",
+      "Content-Type",
+      "X-Psn-Request-Id",
+      "X-Psn-Origin-Client-Id",
+      "X-Psn-Correlation-Id",
+      "X-Psn-Trace-Id"
+    ],
+    "bodyKeys": [
+      "grant_type",
+      "scope",
+      "client_id",
+      "client_secret",
+      "duid"
+    ]
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/authorizeCheck",
+    "method": "OPTIONS",
+    "headers": [],
+    "bodyKeys": []
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/authorizeCheck",
+    "method": "POST",
+    "headers": [
+      "X-Psn-Sampled",
+      "X-Psn-Origin-Client-Id",
+      "X-Psn-Correlation-Id",
+      "X-Psn-Trace-Id",
+      "X-Psn-Span-Id",
+      "Content-Type",
+      "X-Psn-Request-Id"
+    ],
+    "bodyKeys": [
+      "{\"client_id\":\"09515159-7237-4370-9b40-3806e67c0891\",\"scope\":\"psn:mobile.v2.core psn:clientapp\",\"redirect_uri\":\"com.scee.psxandroid.scecompcall://redirect\",\"response_type\":\"code\",\"service_entity\":\"urn:service-entity:psn\",\"access_type\":\"offline\",\"duid\":\"00000007000801a800000000000000533a08957830d9ee3a20202020476f6f676c653a2020506978656c20366100000000000000000000000000000000\"}"
+    ]
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "POST",
+    "headers": [
+      "X-Psn-Sampled",
+      "X-Psn-Span-Id",
+      "Content-Type",
+      "X-Psn-Request-Id",
+      "X-Psn-Origin-Client-Id",
+      "X-Psn-Correlation-Id",
+      "X-Psn-Trace-Id"
+    ],
+    "bodyKeys": [
+      "scope",
+      "npsso",
+      "client_id",
+      "client_secret",
+      "grant_type",
+      "duid"
+    ]
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "POST",
+    "headers": [
+      "X-Psn-Sampled",
+      "X-Psn-Span-Id",
+      "Content-Type",
+      "X-Psn-Request-Id",
+      "X-Psn-Origin-Client-Id",
+      "X-Psn-Correlation-Id",
+      "X-Psn-Trace-Id"
+    ],
+    "bodyKeys": [
+      "scope",
+      "npsso",
+      "client_id",
+      "client_secret",
+      "grant_type",
+      "duid"
+    ]
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/authorize",
+    "method": "GET",
+    "headers": [],
+    "bodyKeys": []
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "POST",
+    "headers": [
+      "Content-Type",
+      "Authorization",
+      "X-Psn-Correlation-Id"
+    ],
+    "bodyKeys": [
+      "token_format",
+      "grant_type",
+      "redirect_uri",
+      "code",
+      "cid"
+    ]
+  },
+  {
+    "url": "https://ca.account.sony.com/api/authz/v3/oauth/token",
+    "method": "POST",
+    "headers": [
+      "Content-Type",
+      "Authorization"
+    ],
+    "bodyKeys": [
+      "token_format",
+      "grant_type",
+      "scope",
+      "refresh_token"
+    ]
+  }
+]

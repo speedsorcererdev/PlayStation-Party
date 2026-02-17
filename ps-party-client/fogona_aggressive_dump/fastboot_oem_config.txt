@@ -1,0 +1,2 @@
+FAILED (remote: '')
+fastboot: error: Command failed

@@ -1,0 +1,21 @@
+(bootloader) config...
+(bootloader) hw...
+(bootloader) partition...
+(bootloader) blankflash
+(bootloader) fb_mode_set
+(bootloader) fb_mode_clear
+(bootloader) bp-tools-on
+(bootloader) bp-tools-off
+(bootloader) qcom-on
+(bootloader) qcom-off
+(bootloader) ramdump...
+(bootloader) unlock
+(bootloader) lock
+(bootloader) get_unlock_data
+(bootloader) cid_prov_req
+(bootloader) off-mode-charge
+(bootloader) read_sv
+(bootloader) show_screen
+(bootloader) refresh...
+OKAY [  0.001s]
+Finished. Total time: 0.001s

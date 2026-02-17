@@ -1,0 +1,77 @@
+{
+  "name": "ps-party-listener",
+  "version": "1.0.0",
+  "description": "Listen to PlayStation party voice for OBS",
+  "author": "PlayStation Party",
+  "license": "MIT",
+  "main": "dist-main/main/main.js",
+  "scripts": {
+    "dev": "npm run build && electron .",
+    "dev:wait-invite": "TEST_WAIT_FOR_INVITE=<online_id> npm run dev",
+    "run:wait-invite": "./scripts/run-wait-invite.sh",
+    "run:party-link": "TEST_PARTY_LINK=https://party.playstation.com/-<link_id> ./scripts/run-wait-invite.sh",
+    "dev:watch": "npm run build:shared && npm run build:main && concurrently \"vite build --watch\" \"electron .\"",
+    "build": "npm run build:main && npm run build:renderer",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build",
+    "start": "electron .",
+    "test:create-party": "./scripts/test-create-party.sh",
+    "test:create-party:open": "./scripts/test-create-party.sh open",
+    "test:full-load": "./scripts/test-full-load.sh",
+    "test:invite-listen": "./scripts/test-invite-listen.sh",
+    "reverse:extract": "node scripts/reverse/har-extract-all.js",
+    "pack": "electron-builder --dir",
+    "dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "electron-store": "^8.1.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/uuid": "^9.0.7",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "build": {
+    "appId": "com.pspartylistener.app",
+    "productName": "PlayStation Party (Desktop App)",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist-main/**",
+      "dist-renderer/**",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}

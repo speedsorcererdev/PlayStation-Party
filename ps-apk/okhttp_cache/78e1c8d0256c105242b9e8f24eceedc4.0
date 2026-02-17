@@ -1,0 +1,20 @@
+https://psn-rsc.prod.dl.playstation.net/psn-rsc/sticker/preset/PRESET0000000015_F67CD53F7A49086332A2/thumbnail.png
+GET
+0
+HTTP/1.1 200 OK
+10
+Accept-Ranges: bytes
+Content-Type: image/png
+ETag: "863298f97bfddd2a03ed65fd7a56454e:1715589289.222889"
+Last-Modified: Tue, 20 Jun 2017 01:02:18 GMT
+Server: AkamaiNetStorage
+Content-Length: 14168
+Date: Sun, 15 Feb 2026 02:50:07 GMT
+Connection: keep-alive
+OkHttp-Sent-Millis: 1771123808832
+OkHttp-Received-Millis: 1771123808877
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

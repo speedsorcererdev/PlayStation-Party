@@ -1,0 +1,23 @@
+node_modules/
+dist-main/
+dist-renderer/
+dist-shared/
+release/
+*.log
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.local
+
+# Debug / capture artifacts (may contain tokens or paths)
+customMessage-400-detail.txt
+customMessage-debug.log
+customMessage-last-request.txt
+customMessage-write-error.txt
+.customMessage-debug-path
+customMessage_204_body.json
+customMessage_204_request.json
+run-log.txt
+run-log-*.txt
+run-log-issues.md

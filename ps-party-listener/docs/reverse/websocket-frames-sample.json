@@ -1,0 +1,283 @@
+[
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:members:created",
+    "time": 1771123967.0979571,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData4": "WyIiLCIiLCIxIiwiMCIsIjYuMi4wIiwiMCIsIjAiLCIwIiwiIiwiIl0=",
+            "deviceUniqueId": "<redacted>",
+            "isOnShareScreen": false,
+            "joinOrder": 1,
+            "joinTimestamp": 1771123967062,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP",
+            "voiceChatActivated": true
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:partySession:created",
+    "time": 1771123967.1013582,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:m:customData4:updated",
+    "time": 1771123968.1345,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData4": "WyIiLCJBZ0FBQUE9PSIsIjEiLCIwIiwiNi4yLjAiLCIwIiwiMCIsIjAiLCIiLCIiXQ==",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:outside:v2:partySession:deleted",
+    "time": 1771123970.464479,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "deletedEvenCause": "LAST_MEMBER_LEFT",
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "sessionId": "3a59cc2f-38ba-43fb-859c-047af77b73b6"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:members:created",
+    "time": 1771123972.225652,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData4": "WyIiLCIiLCIxIiwiMCIsIjYuMi4wIiwiMCIsIjAiLCIwIiwiIiwiIl0=",
+            "deviceUniqueId": "<redacted>",
+            "isOnShareScreen": false,
+            "joinOrder": 2,
+            "joinTimestamp": 1771123972189,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP",
+            "voiceChatActivated": true
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:m:customData3:updated",
+    "time": 1771123972.6122649,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData3": "ZjAyYjllYzktZjQ4MS00MzY2LWE0NjQtNmExNzFkOGRmZjlhCjAwMDg2NTUwNTc1NDU3OTUxNDMyNQo=",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:m:customData3:updated",
+    "time": 1771123972.842531,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData3": "ZjAyYjllYzktZjQ4MS00MzY2LWE0NjQtNmExNzFkOGRmZjlhCjAwNjc5ODgyNjYwNTcwNjA1MjAyOQo=",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:m:customData4:updated",
+    "time": 1771123972.912433,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData4": "WyIiLCJBUUFBQUE9PSIsIjEiLCIwIiwiNi4yLjAiLCIwIiwiMCIsIjAiLCIiLCIiXQ==",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:customMessage:noSeq:created",
+    "time": 1771123974.134955,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customMessage": {
+          "channel": "miranda:12",
+          "payload": "ver=1.0, type=binary, body=AQAAAAAAAAABAAAAAAAAAL2BlbLGSFpeoYYBAAAAAAAAAAAAAAAAAIILAAAxLzEvMQp7ImZyb20iOnsiYWNjb3VudF9pZCI6IjY3OTg4MjY2MDU3MDYwNTIwMjkiLCJwbGF0Zm9ybSI6MTAwMDAxfSwiZ2xvYmFsX3NlcV9udW0iOjIwOCwibWVkaWFzIjpbeyJtZWRpYV9yZWNvcmRzIjpbeyJtZWRpYV9pZGVudGlmaWVyIjoidm9pY2VfY2hhdCIsIm1pZCI6IjAifV0sIm1zaWRzIjpbIjAiXSwidXNlciI6eyJhY2NvdW50X2lkIjoiNjc5ODgyNjYwNTcwNjA1MjAyOSIsInBsYXRmb3JtIjoxMDAwMDF9fV0sInNkcCI6InY9MFxyXG5vPS0gNzU2OTYxNDIwMjU4MDc1MDAxNiAyIElOIElQNCAxMjcuMC4wLjFcclxucz0tXHJcbnQ9MCAwXHJcbmE9Z3JvdXA6QlVORExFIDAgMVxyXG5hPWV4dG1hcC1hbGxvdy1taXhlZFxyXG5hPW1zaWQtc2VtYW50aWM6IFdNU1xyXG5tPWF1ZGlvIDU2MjMxIFVEUC9UTFMvUlRQL1NBVlBGIDk2IDYzIDEwNiAxMDUgMTMgMTEwIDExM1xyXG5jPUlOIElQNCAxOTIuMTY4LjUwLjY2XHJcbmE9cnRjcDo5IElOIElQNCAwLjAuMC4wXHJcbmE9Y2FuZGlkYXRlOjQxNjg5OTg1OSAxIHVkcCAyMTIyMjYwMjIzIDE5Mi4xNjguNTAuNjYgNTYyMzEgdHlwIGhvc3QgZ2VuZXJhdGlvbiAwIG5ldHdvcmstaWQgMSBuZXR3b3JrLWNvc3QgMTBcclxuYT1jYW5kaWRhdGU6MTAwMjgyODQ5MSAxIHVkcCAyMTIxODY3MDA3IDE5Mi4wLjAuNiA1NTg3OCB0eXAgaG9zdCBnZW5lcmF0aW9uIDAgbmV0d29yay1pZCAyIG5ldHdvcmstY29zdCA1MFxyXG5hPWNhbmRpZGF0ZToxNTU4NzkxOTg2IDEgdWRwIDIxMjIxOTk4MDcgZmQ3NDo2NTcyOjZkNmU6NzU3MzpjOmFkMzk6MzRiOjI2NjYgNjU0ODIgdHlwIGhvc3QgZ2VuZXJhdGlvbiAwIG5ldHdvcmstaWQgMyBuZXR3b3JrLWNvc3QgNTBcclxuYT1jYW5kaWRhdGU6MTI1MzE2MTUwMiAxIHVkcCAyMTIyMTM0MjcxIGZkNzQ6NjU3Mjo2ZDZlOjc1NzM6ZDphZDM5OjM0YjoyNjY2IDY0NTk1IHR5cCBob3N0IGdlbmVyYXRpb24gMCBuZXR3b3JrLWlkIDQgbmV0d29yay1jb3N0IDUwXHJcbmE9Y2FuZGlkYXRlOjIzNjc3MzY0NSAxIHVkcCAyMTIyMDY4NzM1IGZkYmE6MzNmNzo0OTU5OjoxIDU3OTIxIHR5cCBob3N0IGdlbmVyYXRpb24gMCBuZXR3b3JrLWlkIDkgbmV0d29yay1jb3N0IDUwXHJcbmE9Y2FuZGlkYXRlOjMwOTk2Mzc1OTEgMSB1ZHAgMjEyMjAwMDYzOSAyNjA3OmZjMjA6OWFhZjo4NWQ4OjE4Zjc6ODY1NjpkOGMyOjc5MDMgNjQwOTcgdHlwIGhvc3QgZ2VuZXJhdGlvbiAwIG5ldHdvcmstaWQgNSBuZXR3b3JrLWNvc3QgNTBcclxuYT1jYW5kaWRhdGU6MzA5OTYzNzU5MSAxIHVkcCAyMTIxOTM1MTAzIDI2MDc6ZmMyMDo5YWFmOjg1ZDg6MThmNzo4NjU2OmQ4YzI6NzkwMyA0OTM2OSB0eXAgaG9zdCBnZW5lcmF0aW9uIDAgbmV0d29yay1pZCA2IG5ldHdvcmstY29zdCA1MFxyXG5hPWljZS11ZnJhZzowVm9FXHJcbmE9aWNlLXB3ZDo2ekZDK2U0ZEZoeWdBbUZvZUxwcjFoSjVcclxuYT1pY2Utb3B0aW9uczp0cmlja2xlXHJcbmE9ZmluZ2VycHJpbnQ6c2hhLTI1NiAzMjowMjo3MDo0QTpEMjoyQjpDNjpDODo0Mzo5Mzo1MToyNTpGMTozNTpFQzpFMzpEOTo2Rjo4MTpEOTo2Qzo4Qjo0MzpCOTpEQjpCNTpFMTo3QjpGMjo2NTozODozRFxyXG5hPXNldHVwOmFjdGl2ZVxyXG5hPW1pZDowXHJcbmE9ZXh0bWFwOjEgdXJuOmlldGY6cGFyYW1zOnJ0cC1oZHJleHQ6c3NyYy1hdWRpby1sZXZlbFxyXG5hPWV4dG1hcDoyIGh0dHA6Ly93d3cud2VicnRjLm9yZy9leHBlcmltZW50cy9ydHAtaGRyZXh0L2Ficy1zZW5kLXRpbWVcclxuYT1leHRtYXA6MyBodHRwOi8vd3d3LmlldGYub3JnL2lkL2RyYWZ0LWhvbG1lci1ybWNhdC10cmFuc3BvcnQtd2lkZS1jYy1leHRlbnNpb25zLTAxXHJcbmE9ZXh0bWFwOjQgdXJuOmlldGY6cGFyYW1zOnJ0cC1oZHJleHQ6c2RlczptaWRcclxuYT1leHRtYXA6NSB1cm46dXVpZDo4NGE4NmZhYi1hODRmLTRkNjEtYjM3Ni0yZWU3OWQyYjY3ZDIjc2llOnJ0cC1oZHJleHQ6cnRwLXBheWxvYWQtc2lnbmF0dXJlXHJcbmE9c2VuZHJlY3ZcclxuYT1tc2lkOi0gMEU2REVFQkQtOENFMy00MkI2LUIwMEUtQzNEM0FEQzY5REJEXzFfQ0VMVC80MFxyXG5hPXJ0Y3AtbXV4XHJcbmE9cnRjcC1yc2l6ZVxyXG5hPXJ0cG1hcDo5NiBvcHVzLzE2MDAwLzJcclxuYT1mbXRwOjk2IG1pbnB0aW1lPTEwO3N0ZXJlbz0wO3VzZWluYmFuZGZlYz0xXHJcbmE9cnRwbWFwOjYzIHJlZC80ODAwMC8yXHJcbmE9Zm10cDo2MyA5Ni85NlxyXG5hPXJ0cG1hcDoxMDYgQ04vMzIwMDBcclxuYT1ydHBtYXA6MTA1IENOLzE2MDAwXHJcbmE9cnRwbWFwOjEzIENOLzgwMDBcclxuYT1ydHBtYXA6MTEwIHRlbGVwaG9uZS1ldmVudC80ODAwMFxyXG5hPXJ0cG1hcDoxMTMgdGVsZXBob25lLWV2ZW50LzE2MDAwXHJcbmE9cHRpbWU6NDBcclxuYT1zc3JjOjEyODA5MDM4MzggY25hbWU6UDBkMDFRY3ZLbkRtcWlib1xyXG5tPWFwcGxpY2F0aW9uIDkgVURQL0RUTFMvU0NUUCB3ZWJydGMtZGF0YWNoYW5uZWxcclxuYz1JTiBJUDQgMC4wLjAuMFxyXG5hPWljZS11ZnJhZzowVm9FXHJcbmE9aWNlLXB3ZDo2ekZDK2U0ZEZoeWdBbUZvZUxwcjFoSjVcclxuYT1pY2Utb3B0aW9uczp0cmlja2xlXHJcbmE9ZmluZ2VycHJpbnQ6c2hhLTI1NiAzMjowMjo3MDo0QTpEMjoyQjpDNjpDODo0Mzo5Mzo1MToyNTpGMTozNTpFQzpFMzpEOTo2Rjo4MTpEOTo2Qzo4Qjo0MzpCOTpEQjpCNTpFMTo3QjpGMjo2NTozODozRFxyXG5hPXNldHVwOmFjdGl2ZVxyXG5hPW1pZDoxXHJcbmE9c2N0cC1wb3J0OjUwMDBcclxuYT1tYXgtbWVzc2FnZS1zaXplOjI2MjE0NFxyXG4iLCJzZHBfc2VxdWVuY2VfbnVtYmVyIjoiMSIsInRvIjp7ImFjY291bnRfaWQiOiI4NjU1MDU3NTQ1Nzk1MTQzMjUiLCJwbGF0Zm9ybSI6MTAwMDAxfSwidHlwZSI6ImFuc3dlciIsInVzZXJzIjpbeyJhY2NvdW50X2lkIjoiNjc5ODgyNjYwNTcwNjA1MjAyOSIsInBsYXRmb3JtIjoxMDAwMDF9XX0="
+        },
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 2,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  },
+  {
+    "type": "receive",
+    "dataType": "psn:sessionManager:sys:v2:ps:m:customData4:updated",
+    "time": 1771123976.764353,
+    "opcode": 1,
+    "body": {
+      "data": {
+        "customProperties": {
+          "from": {
+            "accountId": "<redacted>",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        },
+        "members": [
+          {
+            "accountId": "<redacted>",
+            "customData4": "WyIiLCJBZ0FBQUE9PSIsIjEiLCIwIiwiNi4yLjAiLCIxIiwiMCIsIjAiLCIiLCIiXQ==",
+            "deviceUniqueId": "<redacted>",
+            "joinOrder": 1,
+            "onlineId": "<redacted>",
+            "platform": "MOBILE_APP"
+          }
+        ],
+        "sessionId": "f02b9ec9-f481-4366-a464-6a171d8dff9a"
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "url": "https://m.np.playstation.com/api/sessionManager/v2/partySessions/<PARTY_SESSION_UUID>/customMessage",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer <REDACTED_JWT>",
+    "Content-Type": "application/json; charset=utf-8",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 16; Pixel 6a Build/BP4A.251205.006)",
+    "Host": "m.np.playstation.com",
+    "Connection": "Keep-Alive",
+    "Accept-Encoding": "gzip",
+    "Content-Length": "<LENGTH>"
+  },
+  "body": {
+    "channel": "miranda:12",
+    "payload": "ver=1.0, type=binary, body=<BASE64_PAYLOAD>",
+    "to": [{"accountId": "<REDACTED_ACCOUNT_ID>", "platform": "PS5"}],
+    "withoutSequenceNumber": true
+  }
+}

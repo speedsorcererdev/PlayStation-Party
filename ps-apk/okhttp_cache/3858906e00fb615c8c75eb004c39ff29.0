@@ -1,0 +1,21 @@
+https://image.api.playstation.com/pr/bam-art/224/232/8d99ba90-519b-4d31-8a59-074ba7434623.png?w=300&thumb=false
+GET
+0
+HTTP/1.1 200 
+11
+etag: "2bf8d2766aeb60ac85c405554aa262f5:1770713880.861457"
+last-modified: Fri, 13 Feb 2026 10:00:11 GMT
+server: Akamai Image Manager
+x-serial: 1656
+content-length: 372
+content-type: image/png
+cache-control: public,  no-transform, max-age=86400, stale-while-revalidate=2592000, stale-if-error=2592000
+expires: Sun, 15 Feb 2026 14:54:02 GMT
+date: Sun, 15 Feb 2026 02:54:02 GMT
+OkHttp-Sent-Millis: 1771124043751
+OkHttp-Received-Millis: 1771124043939
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3

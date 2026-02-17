@@ -1,0 +1,25 @@
+https://m.np.playstation.com/api/cloudAssistedNavigation/v2/users/me/commands?commandIds=d4777bef-fe16-485e-b9a0-85d67b83c65d&commandStatus=executing%2Ccompleted&includeFields=actions%2CcommandDetail&platform=PS5
+GET
+0
+HTTP/1.1 200 
+15
+content-type: application/json
+content-length: 684
+server: Apache
+x-psn-can-frequency-control: 5
+x-psn-can-frequency-control-play: 5
+cache-control: private
+access-control-allow-origin: *
+access-control-allow-methods: GET, PUT, POST, DELETE, PATCH, OPTIONS
+access-control-allow-headers: Authorization, Content-Type
+date: Sun, 15 Feb 2026 02:13:47 GMT
+strict-transport-security: max-age=63072000; includeSubDomains
+x-content-type-options: nosniff
+set-cookie: _abck=9F1698126F44DE59618DDA8CAFBD2790~-1~YAAQhaA7FxhU4SWcAQAAD1MTXw9LutUc/rlfYLgmpWKUf8LM7/EDw7YXqUKcADT7eHsBi1FvC1jZqtwu/kWMTXU2jLYgHZMATWPHje0Ghv97ZwK1Uoikc1Ekql/0mH8w57nOJ2vdifLRlIezrw68TxR3yxYE823Yd7Rp6KkSP8VEtoOdrxNG0AGcskMBwSNyUwfHtOtsjthpWOgaOn7rkoVu384Saa9o1ovjzFk4wOooeO2PjxCXLdq9TgiS2xRnzrY03Qp0yKWt7yEx/eQ9Xlc5MBWuI1F2k6jzsMIc0A9HjgLjIvXIherLcjWpk2E5IqNwQ+bKVwG9Bkmh5luCeGyCk0HMs/Trjvn2k3P05UGDFcLzSYwlvDE7eRJrfBkQm7ubMcBRqNQOlDGLYQohxJZhTCDYL2ZCPjRYwWip/qCADsIoFPaE1Vl3BTW6vRabbQ4jRFWnOH7lB15qMg==~-1~-1~-1~-1~-1; Domain=.playstation.com; Path=/; Expires=Mon, 15 Feb 2027 02:13:47 GMT; Max-Age=31536000; Secure
+OkHttp-Sent-Millis: 1771121629248
+OkHttp-Received-Millis: 1771121629514
+
+TLS_AES_256_GCM_SHA384
+0
+0
+TLSv1.3
