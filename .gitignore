@@ -25,6 +25,10 @@ run-log.txt
 run-log-*.txt
 run-log-issues.md
 
+# ps-apk: Decoded APK output (contains app-bundled keys: AWS, Google API — do not commit)
+ps-apk/ps-apk-decoded/
+ps-apk/ps-apk-frida-decoded/
+
 # ps-apk: HAR, captures, logs (contain tokens / account IDs)
 ps-apk/flows*_export.har
 ps-apk/decoded_custommessage_all.txt

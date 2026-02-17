@@ -19,6 +19,10 @@ logcat-*.log
 core_cache.db
 pixel-party-snapshot/logcat-relevant.txt
 
+# Decoded APK output (contains app-bundled AWS/Google keys — do not commit)
+ps-apk-decoded/
+ps-apk-frida-decoded/
+
 # Local paths / device-specific
 ps-app-base.apk
 *.apk
